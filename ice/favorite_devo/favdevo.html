@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <style>
+    table {
+      border: 3px solid black;
+      border-collapse: collapse;
+      width: 800px;
+      margin: 0 auto;
+    }
+    
+    th, td {
+      width: 200px;
+    }
+
+    th {
+      border: 1px solid black;
+      border-bottom: 3px solid black;
+      background-color: gray;
+    }
+
+    td {
+      border: 1px solid black;
+    }
+
+    form {
+      width: 300px;
+      margin: 0 auto;
+      background-color: rgb(183, 192, 204);
+      padding: 20px;
+      border-radius: 10px;
+      border: 3px solid black;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    form #submit {
+      border: 3px solid black;
+      border-radius: 5px;
+      margin: 0 auto;
+      display: block;
+      background-color: white;
+      font-weight: bold;
+      height: 40px;
+      font-size: 1.2rem;
+    }
+
+    form input {
+      margin-left: 10px;
+    }
+
+  </style>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <table>
+          <tr>
+            <th>Speaker</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Lawrence E. Corbridge</td>
+            <td>Stand Forever</td>
+            <td>BYU</td>
+            <td>2019</td>
+          </tr>
+          <tr>
+            <td>Dale G. Renlund</td>
+            <td>Lifelong Conversion</td>
+            <td>BYU</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td>Steven J. Lund</td>
+            <td>Flashes of Light</td>
+            <td>BYU</td>
+            <td>2022</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <form>
+          <p><label for="speaker">Speaker<input type="text" id="speaker"></label></p>
+          <p><label for="title">Title<input type="text" id="title"></label></p>
+          <p><label for="location">Location<input type="text" id="location"></label></p>
+          <p><label for="year">Year<input type="text" id="year"></label></p>
+          <input type="submit" value="Submit" id="submit">
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

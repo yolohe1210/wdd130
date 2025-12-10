@@ -1,0 +1,221 @@
+h1, h2 {
+    font-family: "Praise", cursive;
+    text-align: center;
+    color: #5e2bff;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}    
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: "Lora", serif;
+    font-size: 700;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: Lora;
+    font-size: 400;
+    font-size: 1.1rem;
+}
+
+.header {
+    background-color: #fc6dab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+}
+
+#logo {
+    width:100px;
+    height: 100px;
+    display: block;
+    padding-right: 100px;
+}
+
+nav ul{
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    width: 800 px;
+}
+
+li a:hover {
+    background-color: #5e2bff;
+    padding: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: #f3fae1;
+}
+
+#intro {
+    padding: 100px;
+}
+
+.project-summary {
+    padding: 30px;
+    width: 60%;
+    margin: 100px auto auto auto;
+    border: #f3fae1 solid 10px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.project-summary h3 {
+    margin-bottom: 20px;
+}
+
+table {
+    margin: auto;
+}
+
+th, td { 
+    padding: 10px 15px; 
+}
+
+.pages {
+    margin: 80px auto;
+}
+
+.card {
+    display: flex;
+    margin: auto;
+    padding: 50px;
+    width: 67%;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+
+.card h3 {
+    color:#5e2bff;
+    text-align: left;
+    display: inline-block;
+}
+
+.card h3:hover {
+    background-color: #f3fae1;
+    padding: 8px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #5e2bff;
+}
+
+.description {
+    margin: auto;
+    padding: 80px;
+}
+
+.contact {
+    width: 76%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 120px;
+    
+}
+
+.contact img {
+    width: 530px;
+    height: 420px;
+    position: relative;
+    left: 55px;
+}
+
+form {
+    background-color: #f3fae1;
+    width: 260px;
+    height: 280px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    gap: 5px;
+    position: relative;
+    left: -30px;
+}
+
+button {
+    border: #5e2bff solid 2px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #5e2bff;
+    color: #f3fae1;
+}
+
+footer {
+    background-color: #fc6dab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 30px;
+}
+
+footer ul, .social{
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.social {
+    gap: 15px;
+}
+
+.social img{
+    width: 60px;
+    height: 60px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/background.jpg");
+}
+
+.ice {
+    padding: 50px;
+}
+
+.ice_cards {
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.ice_cards a {
+    text-decoration: none;
+    color: #5e2bff;
+}
+
+.ice_cards a:hover {
+    background-color: #f3fae1;
+    padding: 8px;
+}
+
+.about_me {
+    width: 70%;
+    margin: auto;
+    padding: 100px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            background: #E8ECED;
+            display: flex;          
+            justify-content: center;  
+            align-items: center;
+        }
+        h1, h2 {
+            font-family: "Arial";
+            color: #FFFFFF;
+            text-align: center;
+            margin: 10px 0;
+        }
+        #wrapper {
+            background-image: url("images/christus.webp");
+            background-size: cover;
+            width: 1000px;
+            height: 800px;
+            background-position: -300px center;
+            border: 10px solid black;
+            border-radius: 50px;
+            position: relative;
+        }
+        .spotlight, .apostles {
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            margin: 0 auto;
+            align-items: center;
+        }
+        
+        .spotlight img {
+            width: 150px;
+            height: 150px;
+            border: 7px solid #FFFFFF;
+            border-radius: 50%;
+            overflow: hidden;
+            display: grid;
+        }
+        .apostles img {
+            width: 120px;
+            height: 120px;
+            border: 7px solid #FFFFFF;
+            border-radius: 50%;
+            overflow: hidden;
+            display: grid;
+        }
+        #bigger {
+            width: 180px;
+            height: 180px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>First Presidency</h1>
+        <div class="spotlight">
+            <img src="images/oaks.webp">
+            <img src="images/nelson.webp" id="bigger">
+            <img src="images/eyring.webp">
+        </div>
+        <h2>Quorum of the Twelve Apostles</h2>
+        <div class="apostles">
+            <img src="images/holland.webp">
+            <img src="images/uchtdorf.webp">
+            <img src="images/bednar.webp">
+            <img src="images/cook.webp">
+            <img src="images/christofferson.webp">
+            <img src="images/anderson.webp">
+            <img src="images/rasband.webp">
+            <img src="images/stevenson.webp">
+            <img src="images/renlund.webp">
+            <img src="images/soares.webp">
+            <img src="images/gong.webp">
+            <img src="images/kearon.webp">
+        </div>
+    </div>
+</body>
+</html>
