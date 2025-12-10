@@ -50,8 +50,8 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    gap: 120px;
-    width: 800 px;
+    gap: 100px;
+    width: 600 px;
 }
 
 li a:hover {
@@ -218,4 +218,26 @@ body {
     width: 70%;
     margin: auto;
     padding: 100px;
+}
+
+#report {
+    width: 70%;
+    margin: auto;
+    padding: 80px 100px;
+}
+
+#report h3 {
+    color: #5e2bff;
+}
+
+#report_intro {
+    margin-bottom: 80px;
+}
+
+#report_intro p {
+    margin: 0;
+}
+
+.report {
+    margin-bottom: 50px;
 }
