@@ -241,3 +241,14 @@ body {
 .report {
     margin-bottom: 50px;
 }
+
+.report_link a{
+    color:#5e2bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.report_link a:hover {
+    background-color: #f3fae1;
+    padding: 8px;
+}
